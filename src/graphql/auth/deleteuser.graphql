@@ -1,0 +1,7 @@
+mutation DELETE_USER{
+ deleteUser{
+    status
+  	
+ 
+  }
+}

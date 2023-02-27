@@ -1,0 +1,6 @@
+mutation SaveEmailSubscriptionl($data:EmailSubscriptionInput){
+ saveEmailSubscription(data:$data){
+    status
+  message
+  }
+}

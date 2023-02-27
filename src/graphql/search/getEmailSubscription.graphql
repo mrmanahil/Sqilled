@@ -1,0 +1,17 @@
+query getEmailSubscription{
+  getEmailSubscription(user_type:AUTHOR){
+    user_id
+    author{
+      email
+      first_name
+      last_name
+      avatar
+    }
+    reader{
+      email
+      first_name
+      last_name
+      avatar
+    }
+  }
+}

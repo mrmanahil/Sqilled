@@ -1,0 +1,103 @@
+.pricing_block {
+    background-color: #f2f2f2;
+   
+}
+.pricing_block .container {
+    max-width: 1140px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.card.mb-4.box-shadow {
+    padding: 0;
+    overflow: hidden;
+}
+.pricing_block button.btn.btn-lg.btn-block.btn-outline-info {
+    background: #000 ;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    outline: none;
+}
+.pricing_block button.btn.btn-lg.btn-block.btn-outline-info:hover {
+    filter: none;
+    border: 1px solid #f67349;
+    background-color: #f67349;
+}
+
+.pricing_block button.btn.btn-block.btn-lg.btn-primary {
+    border: 1px solid #f88966;
+    background-color: #f88966;
+    color: #7d97ff;
+    outline: none;
+}
+.pricing_block button.btn.btn-block.btn-lg.btn-primary:hover {
+    border: 1px solid #f67349;
+    background-color: #f67349;
+    color: #fff;
+    opacity: 1;
+    filter: none;
+}
+.pricing_block .card:hover {
+    transform: scale(1);
+    transition: all ease-in-out 0.3s;
+}
+.pricing_block .card:hover {
+    transform: scale(1.05);
+}
+.pricing_block h4 {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600 !important;
+}
+.pricing_block h4 i {
+    font-size: 35px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+.pricing_block button {
+    width: calc(100% + 60px);
+    margin: 0 -30px -21px;
+    border-radius: 0;    
+    margin-top: 45px;
+    color: #fff !important;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.pricing_block_top h4{
+	margin-bottom: 10px;
+}
+.pricing_block_top h4 span {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+
+.pricing_block_top h4 span:before {
+    background: #000;
+    content: "";
+    position: absolute;
+    left: -60px;
+    width: 50px;
+    height: 2px;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.pricing_block_top h4 span:after {
+    background: #000;
+    content: "";
+    position: absolute;
+    right: -60px;
+    width: 50px;
+    height: 2px;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.pricing_block_top h3 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}

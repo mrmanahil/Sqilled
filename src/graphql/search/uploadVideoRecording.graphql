@@ -1,0 +1,6 @@
+mutation ($file: Upload!) {
+    uploadVideoRecording(file: $file) {
+      message
+      status
+    }
+  }
